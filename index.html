@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/styles.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+<title>David Lynch Tribute Page</title> 
+    </head>
+    <body>
+        <!--
+            <div id="bg">
+            <img id="bg-img" src="./img/background.jpg">
+        </div>
+    -->
+    <canvas class="noise" id="noise"></canvas>
+
+        <main id="main">
+            <section id="main-section">
+                <ul class="nav">
+                    <li><a href="#main-section">Main</a></li>
+                    <li><a href="#bio-section">About</a></li>
+                    <li><a href="#quotes-section">Quotes</a></li>
+                    <li> <a href="#gallery-section">Gallery</a></li>
+                    <li><a href="#more-section">More</a></li>
+                    </ul>
+                
+            <div id="img-div">
+                <div class="nameFont">
+                <h1>
+                    <span >D</span>
+                    <span >A</span>
+                    <span >V</span>
+                    <span >I</span>
+                    <span >D</span>
+                    <span> </span>
+                    <span >L</span>
+                    <span >Y</span>
+                    <span >N</span>
+                    <span >C</span>
+                    <span >H</span>
+                
+                </h1>
+
+            </div>
+            <img id="image" src="./img/header.jpg"/>
+        </div>
+            </section>
+            
+
+            <!--Biography-section-->
+
+<section id="bio-section">
+    <p id="freedom">freedom from context</p>
+    <div id="tribute-info">
+        <div class="pretext">"Lynchian" - this is how they say about
+            <br>something <span id="changingword">scary</span> all at the same time.</div>
+        <div>Sounds like our life, <span class="right-word-padding"> </span></div>
+        <div>We have so many expectations, yet we 
+            <br>understand so little.</div>
+        <div>Sounds like Lynch movie, <span class="rightword">right?</span><span cass="right-word-padding"></span></div>
+        <div>It can be endlessly interpreted and 
+            <br>never fully explained.</div>
+        <div>David Lynch never planned to make films, but 
+            <br>added <span id="motion">motion</span> <span class="motion-word-padding">to</span> his picture. Then he 
+            <br>added sound, and one of the 
+            <br>most influential directors was born.</div>
+        <div>In Missoula, Montana on January 20, 1946.</div>
+
+        </div>
+    <div id="grey-text-square"></div>
+
+
+        <img src="./img/woody-story.jpg">
+    </section>
+
+<!--Quotes-section-->
+
+       <section id="quotes-section">
+        <img src="./img/self-portrait.jpg">
+        <div id="red-quotation-mark">"</div>
+        <div id="quotation-square">
+            <div id="quoteDisplay"></div>
+            <button onClick="newQuote()">big red button</button>
+        </div>
+        
+
+
+       </section>
+
+<!--Gallery-section-->
+
+       <section id="gallery-section">
+        <div id="galleryContainer">
+            <div class="img-container">
+                <img src="/img/1- eraserhead.jpg">
+                <div class="img-description-container">
+                    <h3><span>1977<span class="triangle"> &#9650 </span></span>Eraserhead</h3>
+                   <div class="img-description">
+                    <p>Lynch's cult fame already started with his debut - perhaps the most mysterious and, according to the author, "the most spiritual" of his films.</p>
+                    <p>He already graduated from the  Pennsylvania Academy of Fine Arts and made a series of short films. Due to severe lack of money, "Eraserhead" took five years to make, during which 
+                        Lynch went through a divorce, and this picture was born partially from the traumatic experience of his first fatherhood.</p>
+                        <p>This is a film about loneliness, escapism and fear of life, which to a certain extent set the tone for all of Lynch's subsequent work.</p>
+                    <p>Stanley Kubrick called "Eraserhead" his favorite film and regretted that he did not make it.</p>
+                   </div> 
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/2-elephant-man.jpg">
+                <div class="img-description-container">
+                    <h3><span>1980<span class="triangle"> &#9650 </span></span>The Elephant Man</h3>
+                    <div class="img-description">
+                        <p>After Eraserhead's success Lynch struggled to find any financiers for his already written "Ronnie Rocket", so he decided to pick up a script by someone else that he could direct.</p>
+                        <p>Though surrealistic and in black and white, "The Elephant Man" has been called one of the most conventional of Lynch's films, and was based on a true story of Joseph Merrick, 
+                        a severely deformed man in Victorian London, who was held in a sideshow.</p>
+                        <p>It was an attempt to adapt to Hollywood's notion of normativity, and a relatively successful one, earning eight Academy Award nominations. Lynch, however, did not receive a single statuette.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/3-dune.jpg">
+                <div class="img-description-container">
+                    <h3><span>1984<span class="triangle"> &#9650 </span></span>Dune</h3>
+                    <div class="img-description">
+                        <p>An adaptation of Frank Herbert's science fiction novel "Dune" was a big studio film and an epic failure.</p>
+                        <p>Negative  public reception was preceded by a conflict between the director and the producer, the final version was edited against Lynch's will. 
+                            Much of his footage was eventually removed from the final theatrical cut, dramatically condensing the plot. </p>
+                            <p>Lynch doesn't talk about "Dune" much anymore, even though it has many fans. 
+                                Artistically, the film is unmistakably Lynchian, combining haunting soundtracks with images that blur the line between the grotesque and the beautiful.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/4-blue-velvet.jpg">
+                <div class="img-description-container">
+                    <h3><span>1986<span class="triangle"> &#9650 </span></span>Blue Velvet</h3>
+                    <div class="img-description">
+                        <p>Lynch drew conclusions from his "Dune" experience. From now on, he will not take on big production projects, he will only work on his own material and collaborate exclusively with those screenwriters who work for him. 
+                            The result of this decision is more personal "Blue Velvet", which can be called Lynchian film language standart.</p>
+                            <p>Here, for the first time, red curtains began to sway in the mystical wind, Angelo Badalamenti's thoughtful nostalgic jazz appeared, and the criminal genre 
+                                became the foundation for the parable about the inexplicable attraction of evil and its power over us.</p>
+                                <p>It's controversy with audiences and critics introduced Lynch into the mainstream, and it became a huge critical and moderate commercial success.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/5-wild-at-heart.jpg">
+                <div class="img-description-container">
+                    <h3><span>1990<span class="triangle"> &#9650 </span></span>Wild at Heart</h3>
+                    <div class="img-description">
+                        <p>It is possible to say that all of Lynch's films are about love, but formally "Wild at Heart" is the main love story in his filmography.</p>
+                        <p>The director creates an eccentric and charming image of criminal lovers on a road trip, running away from the law, relatives, bandits and everyone else.
+                            Lynch altered much of the original novel the film was based on, changing the ending so that the fairy tale in the darkest world unexpectedly wins.</p>
+                        <p>Rejecting realism and gently chuckling at the genre clichés of Hollywood, Lynch ushers into the era of "popular postmodernism" in American cinema. A year later, the Coen brothers will follow him, three more years later - Quentin Tarantino.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/6-twin-peaks.jpg">
+                <div class="img-description-container">
+                    <h3><span>1990, 2017<span class="triangle"> &#9650 </span></span>Twin Peaks</h3>
+                    <div class="img-description">
+                        <p>Lynch explored television as not just a medium but as a subject in "Twin Peaks" - a groundbreaking murder mystery series set in a toy town ruled by the forces of pathological violence and infernal evil.
+                            The significance of "Twin Peaks" for culture cannot be overestimated. The number of films or books inspired by it in one way or another is countless. It changed the rules of TV cinema forever, making Lynch a household name.</p>
+                        <p>Originally, the author refused to reveal who killed his heroine, since the wanted to focus the series not on her death, but on her life. But the producers insisted on doing so. It was one of his biggest professional regrets.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/7-TP-Fire-walk-with-me.jpg">
+                <div class="img-description-container">
+                    <h3><span>1992<span class="triangle"> &#9650 </span></span>TP: Fire Walk with Me</h3>
+                    <div class="img-description">
+                        <p>Lynch returned to the world of Twin Peaks to create a dark and mournful prequel about the last few days in the life of Laura Palmer. 
+                            It's a difficult, uncomfortable portrait of a family caught in the turbines of incestual abuse, suggesting nothing to those looking for morals, as Lynch's empathy stretches out to those commiting the acts of violence as well.</p>
+                            <p>The film was met with hissing and boos at the time of it's release, but has since experienced a critical reappraisal.
+                            It is a grand spectacle of sympathy and brutal violence, and Lynch's most harrowing picture, but it is also his most hopeful and helpful one.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/8-lost-highway.jpg">
+                <div class="img-description-container">
+                    <h3><span>1997<span class="triangle"> &#9650 </span></span>Lost Highway</h3>
+                    <div class="img-description">
+                        <p>"Lost Highway" is a mesmerizing story about the twists and turns of fate secretly preparing its blows for us. 
+                            Back in the 1997 it started officially contemporary psychological cinema, which brings the viewer on apparently linear and clear plot, until it suddenly slams you with a change of perspective that transforms the situation, the events, even the characters.</p>
+                            <p>Lynch reflecting on the nature of male obsession and violence here, as well as on female hypocrisy and duplicity. However, there is not the slightest moralizing in this noir horror.</p>                            
+                            <p>It seems to be the most aimed for commercial success film by Lynch, and people loved it, turning it slowly into a cult classic, despite the mixed response from critics.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/9-straight-story.jpg">
+                <div class="img-description-container">
+                    <h3><span>1999<span class="triangle"> &#9650 </span>The Straight Story</span></h3>
+                    <div class="img-description">
+                        <p>In 1999 Lynch makes a deceptively straightforward film based on real events, "The Straight Story". Even the title seems to be a mockery.</p>
+                        <p>It is about an elderly farmer who travels across several states on a lawn tractor to visit his sick brother, with whom he quarreled many years ago.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/10-mulholland-drive.jpg">
+                <div class="img-description-container">
+                    <h3><span>2001<span class="triangle"> &#9650 </span>Mulholland Drive</span></h3>
+                    <div class="img-description">
+                        <p>"Mulholland Drive" was originally a TV pilot episode, but disputes with producers led to the project being shelved for 2 years. 
+                            Lynch found the money and completed the pilot as a film, although instead of trying to squeeze the multi-episodes plot, he reshot a very different story with the same characters.</p>
+                            <p></p>
+                            <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/11-inland-empire.jpg">
+                <div class="img-description-container">
+                    <h3><span>2006<span class="triangle"> &#9650 </span>Inland Empire</span></h3>
+                    <div class="img-description">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/12-artwork1.jpg">
+                <div class="img-description-container">
+                    <h3><span><span class="triangle"> &#9650 </span></span></h3>
+                    <div class="img-description">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/13-fish kit.jpg">
+                <div class="img-description-container">
+                    <h3><span><span class="triangle"> &#9650 </span></span></h3>
+                    <div class="img-description">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/14-lynch-painting-2.jpg">
+                <div class="img-description-container">
+                    <h3><span><span class="triangle"> &#9650 </span></span></h3>
+                    <div class="img-description">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/15-ricky board.jpeg">
+                <div class="img-description-container">
+                    <h3><span><span class="triangle"> &#9650 </span></span></h3>
+                    <div class="img-description">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/18-ps2.jpg">
+                <div class="img-description-container">
+                    <h3><span><span class="triangle"> &#9650 </span></span></h3>
+                    <div class="img-description">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/19-angry dog.jpg">
+                <div class="img-description-container">
+                    <h3><span>1983<span class="triangle"> &#9650 </span></span>The Angriest Dog in the World</h3>
+                    <div class="img-description">
+                        <p>The strip was conceived by Lynch in 1973 during a period when he was experiencing feelings of great anger.</p>
+                        <p>It featured unchanging graphics of a tethered dog that was so angry that it could not move, alongside cryptic philosophical references. 
+                            It ran from 1983 to 1992 in tabloid and alternative publications.</p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/17-downward-spiral.jpg">
+                <div class="img-description-container">
+                    <h3><span><span class="triangle"> &#9650 </span></span></h3>
+                    <div class="img-description">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/party.jpg">
+                <div class="img-description-container">
+                    <h3><span><span class="triangle"> &#9650 </span></span></h3>
+                    <div class="img-description">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/woodies.jpg">
+                <div class="img-description-container">
+                    <h3><span>1981<span class="triangle"> &#9650 </span></span>The great friendship</h3>
+                    <div class="img-description">
+                        <p>David Lynch once rescued five Woody Woodpecker dolls from a petrol station:</p>
+                        <p>"I screech on the brakes, I do a U-turn, go back and I buy them and I save their lives. 
+                            I named them Chucko, Buster, Pete, Bob and Dan and they were my boys and they were in my office.
+                            They were my dear friends for a while but certain traits started coming out and they became not so nice."</p>
+                        <p>Then, looking straight ahead, he added with a grim finality:
+                        "They are not in my life anymore."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/cow-lawn.png">
+                <div class="img-description-container">
+                    <h3><span>2007<span class="triangle"> &#9650 </span></span>Also great friendship</h3>
+                    <div class="img-description">
+                        <p>David Lynch used a cow to campaign for Laura Dern's Inland Empire Oscar nomination.</p>
+                        <p>He sat at the corner of Hollywood Boulevard and La Brea in Los Angeles for an entire day, next to a live cow and a large poster of Dern.</p>
+                        <p>"You know, there are a bunch of Academy members and all sorts of other awards activity going on out there. And people solve problems with money normally. Well, I don't have any money", he later said.</p>
+                        <p>"Honestly, I'm out there with the cow, and meeting the greatest bunch of people. It was so beautiful, such a great day, out with Georgia the cow, beautiful piano music, meeting so many great people."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       </section>
+
+<!--More-section-->
+
+       <section id="more-section">
+
+       </section>
+
+        <a id="tribute-link" href=""></a>
+
+        </main>
+    </body>
+ </html>
+
+ <!--Scripts-->
+
+ <script src="/js/app.js"></script>
+<!-- jQuery Library for wordchanger -->
+ <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
