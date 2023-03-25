@@ -1,31 +1,31 @@
 @font-face {
     font-family: 'messagesitalic';
-    src: url(/fonts/MessagesItalic-oKKA.ttf);
+    src: url(../fonts/MessagesItalic-oKKA.ttf);
 }
 
 @font-face {
     font-family: 'messagesregular';
-    src: url(/fonts/Messages-gnn5.ttf);
+    src: url(../fonts/Messages-gnn5.ttf);
 }
 
 @font-face {
     font-family: 'aileron';
-    src: url(/fonts/Aileron-Regular.ttf);
+    src: url(../fonts/Aileron-Regular.ttf);
 }
 
 @font-face {
     font-family: 'firsttime';
-    src: url(/fonts/FirstTimeWriting-6Y5LY.ttf);
+    src: url(../fonts/FirstTimeWriting-6Y5LY.ttf);
 }
 
 @font-face {
     font-family: 'aileron-ultralight';
-    src: url(/fonts/Aileron-UltraLight.ttf);
+    src: url(../fonts/Aileron-UltraLight.ttf);
 }
 
 @font-face {
     font-family: 'aileron-light';
-    src: url(/fonts/Aileron-Light.ttf);
+    src: url(../fonts/Aileron-Light.ttf);
 }
 
 @font-face {
@@ -322,17 +322,11 @@ margin-top:1.9em;
     z-index:1;
 }
 
-#tribute-info>div:nth-of-type(1){
-
-}
 
 #tribute-info>div:nth-of-type(2){
     text-align:end;
 }
 
-#tribute-info>div:nth-of-type(3){
-    
-}
 
 #tribute-info>div:nth-of-type(4){
     text-align:end;
